@@ -40,6 +40,7 @@
     height: 16vh;
     width: auto;
     border: 1px rgb(206, 206, 206) solid;
+    z-index: 999;
 }
 
 .headernav {
@@ -53,4 +54,13 @@
     margin: 0.5vw;
     font-size: 3vh;
     font-family: porsche;
+}
+
+.coverphotocont {
+    width: auto;
+    object-fit: fill;
+}
+
+.coverphoto {
+    width: 90vw;
 }
