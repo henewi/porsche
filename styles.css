@@ -1,3 +1,8 @@
+@font-face {
+    font-family: porsche;
+    src: url(./fonts/Porsche\ Next\ TT\ Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@
 .headercars {
     display: flex;
     flex-direction: row;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
 }
 
 .carimgcont {
@@ -34,4 +39,18 @@
 .headerlogo {
     height: 16vh;
     width: auto;
+    border: 1px rgb(206, 206, 206) solid;
+}
+
+.headernav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.navitem {
+    margin: 0.5vw;
+    font-size: 3vh;
+    font-family: porsche;
 }
