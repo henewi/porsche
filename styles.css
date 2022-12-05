@@ -6,4 +6,16 @@
 
 .header{
     background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.headercars {
+    display: flex;
+    flex-direction: row;
+}
+
+.carimg {
+    height: 10px;
+    width: auto;
 }
