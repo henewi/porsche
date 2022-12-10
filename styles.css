@@ -10,10 +10,11 @@
 
 
 .header{
-    background-color: rgb(184, 184, 184);
+    /* background-color: rgb(184, 184, 184); */
     display: flex;
     flex-direction: row;
     height: 12vh;
+    z-index: 999;
 }
 
 .headercars {
@@ -34,6 +35,7 @@
 
 .headerlogocont {
     margin-left: 7vw;
+    object-fit: cover;
 }
 
 .headerlogo {
@@ -58,9 +60,16 @@
 
 .coverphotocont {
     width: auto;
-    object-fit: fill;
+    height: 70vh;
+    z-index: 1;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -5;
 }
 
 .coverphoto {
-    width: 90vw;
+    width: 100%;
+    z-index: -5;
+    position: absolute;
+    height: ;
 }
