@@ -33,6 +33,11 @@
     margin: 1vh;
 }
 
+.carimg:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
 .headerlogocont {
     margin-left: 7vw;
     object-fit: cover;
@@ -43,6 +48,7 @@
     width: auto;
     border: 1px rgb(206, 206, 206) solid;
     z-index: 999;
+    max-height: 107px;
 }
 
 .headernav {
