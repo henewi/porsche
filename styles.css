@@ -62,14 +62,6 @@
     width: auto;
     height: 70vh;
     z-index: 1;
-    object-fit: cover;
-    overflow: hidden;
+    background-size: cover;
     z-index: -5;
-}
-
-.coverphoto {
-    width: 100%;
-    z-index: -5;
-    position: absolute;
-    height: ;
 }
