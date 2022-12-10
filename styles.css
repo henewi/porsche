@@ -52,6 +52,10 @@
     max-height: 107px;
 }
 
+.headerlogo:hover {
+    cursor: pointer;
+}
+
 .headernav {
     display: flex;
     flex-direction: row;
@@ -63,6 +67,10 @@
     margin: 0.5vw;
     font-size: 3vh;
     font-family: porsche;
+}
+
+.navitem:hover {
+    cursor: pointer;
 }
 
 .coverphotocont {
